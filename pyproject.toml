@@ -16,8 +16,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/deaneeth/tinygpu"
-Repository = "https://github.com/deaneeth/tinygpu"
+Homepage = "https://github.com/tinycomputers/tiny-gpu"
+Repository = "https://github.com/tinycomputers/tiny-gpu"
 
 [project.optional-dependencies]
 dev = [

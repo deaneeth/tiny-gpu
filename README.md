@@ -1,11 +1,11 @@
 # TinyGPU 🐉⚡  
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/deaneeth/tiny-gpu/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/tinycomputers/tiny-gpu/releases)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![CI](https://github.com/deaneeth/tiny-gpu/actions/workflows/ci.yml/badge.svg)](https://github.com/deaneeth/tiny-gpu/actions)
+[![CI](https://github.com/tinycomputers/tiny-gpu/actions/workflows/ci.yml/badge.svg)](https://github.com/tinycomputers/tiny-gpu/actions)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Tests](https://img.shields.io/github/actions/workflow/status/deaneeth/tiny-gpu/ci.yml?label=tests)](https://github.com/deaneeth/tinygpu/actions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/tinycomputers/tiny-gpu/ci.yml?label=tests)](https://github.com/tinycomputers/tiny-gpu/actions)
 
 TinyGPU is a **tiny educational GPU simulator** - inspired by [Tiny8](https://github.com/sql-hkr/tiny8), designed to demonstrate how GPUs execute code in parallel. It models a small **SIMT (Single Instruction, Multiple Threads)** system with per-thread registers, global memory, synchronization barriers, branching, and a minimal GPU-like instruction set.
 
@@ -111,7 +111,7 @@ TinyGPU was built as a **learning-first GPU simulator** - simple enough for begi
 ### Clone and install
 
 ```bash
-git clone https://github.com/deaneeth/tiny-gpu.git
+git clone https://github.com/tinycomputers/tiny-gpu.git
 cd tiny-gpu
 pip install -e .
 pip install -r requirements-dev.txt
