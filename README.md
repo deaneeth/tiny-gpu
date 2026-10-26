@@ -10,6 +10,8 @@
 TinyGPU is a **tiny educational GPU simulator** - inspired by [Tiny8](https://github.com/sql-hkr/tiny8), designed to demonstrate how GPUs execute code in parallel. It models a small **SIMT (Single Instruction, Multiple Threads)** system with per-thread registers, global memory, synchronization barriers, branching, and a minimal GPU-like instruction set.
 
 > 🎓 *Built for learning and visualization - see how threads, registers, and memory interact across cycles!*
+
+> 🧩 *Compile to this GPU: [TinyCompiler](https://tiny-compiler.vercel.app) turns one tensor program into TinyGPU kernels and runs them on this simulator, checked bit-exact against numpy.*
  
 | Odd-Even Sort | Reduction |
 |---------------|------------|
